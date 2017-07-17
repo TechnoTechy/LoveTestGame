@@ -36,7 +36,7 @@ end
 --Callback function used to draw on the screen every frame
 function love.draw()
   love.graphics.rectangle("fill", love.mouse.getX(), love.mouse.getY(), w, h)
-  love.graphics.setColor(247, 97, 46, 255)
+  love.graphics.setColor(247, 100, 50, 255)
 end
 --Function to close the game when esc is pressed
 function closeGame()
